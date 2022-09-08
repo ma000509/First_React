@@ -6,7 +6,7 @@ import GateWay from "./pages/GateWay";
 
 import Home from "./pages/Home";
 
-import Devices from "./pages/Devices"; "./pages/Devices";
+import File from "./pages/File";
 
 export interface IApplicationProps{}
 
@@ -16,7 +16,7 @@ let Application: React.FunctionComponent<IApplicationProps> = (props) => {
         <Routes>
             <Route path ='/' element= {<Home />}/>
             <Route path ='gateway' element= {<GateWay />}/>
-            <Route path ='devices' element= {<Devices />}/>
+            <Route path ='devices' element= {<File />}/>
         </Routes>
     </BrowserRouter>
   );

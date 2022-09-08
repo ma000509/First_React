@@ -11,7 +11,8 @@ const GateWay: React.FunctionComponent<IGateWayProps>  = (props) => {
             <p>
                 This is gateway
             </p>
-            <button onClick={()=> navigate('/')}>Volver</button>
+                        
+            <button onClick={()=> navigate('/devices')}>Volver</button>
         </div>
     );
 };
