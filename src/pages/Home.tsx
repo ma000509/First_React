@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import Devices from './Devices';
 
 
 
@@ -15,7 +14,7 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
                 <Link to="/gateway">GateWay</Link>
                 </li> 
                 <li>
-                <Link to="/devices">Devices</Link>
+                <Link to="/file">File</Link>
                 </li>    
             </ul>            
             
